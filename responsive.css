@@ -1,0 +1,135 @@
+@media (max-width: 1520px){
+    .fixed_with{
+        width: 100%;
+        max-width: 100%;
+        margin: auto;
+        box-sizing: border-box;
+        padding-left: 20px;
+        padding-right: 20px;
+        box-sizing: border-box;
+    }
+
+}
+@media (max-width: 1210px){
+    .serviceItem h3 {
+        font-size: 16px;
+    }
+    .serviceItem p {
+        font-size: 12px;
+    }
+    about-right {
+        width: 100%;
+        float: right;
+    }
+    .fixed_with {
+        max-width: 100%;
+        margin: auto;
+        box-sizing: border-box;        
+        box-sizing: border-box;
+    }
+    .contacItem {
+        width: 26%;
+        margin: auto;
+        text-align: center;
+    }
+
+}
+@media (max-width: 1024px){
+    .HeaderSection_right {
+        width: 100%;
+        text-align: center;}
+        .HeaderSection_left {           
+            width: 100%;
+            text-align: center;
+        }
+        .HeaderSection_right ul {
+            text-align: center;
+        }
+        .serviceBox {
+            width: 100%;           
+        }
+        .serviceItem {
+            float: left;          
+        }
+        
+    .content1 p{
+        font-size: 12px;
+    }
+    .content2 p{
+        font-size: 12px;
+    }
+    .content3 p{
+        font-size: 12px;
+    }
+    .content1 h3{
+        font-size: 18px;
+    }
+    .serviceItem {
+        width: 45%;
+
+    }
+
+    
+
+}
+    
+    
+}
+@media (max-width: 768px){
+    .HeaderSection_right ul li {   
+        border-right: none;
+    }
+    .HeaderSection_right ul li a {
+        line-height: 45px;
+        padding: 0px 18px;
+    }
+    .banner {     
+        padding: 150px 0px;
+       
+    }
+    .about-right {
+        width: 100%;
+     
+    }
+    .about-left {
+        width: 100%;
+    }
+    .serviceBox {
+        width: 100%;       
+    }
+    .serviceItem {
+        float: left;
+      
+    }
+    .serviceItem {
+        width: 80%;
+       
+    }
+
+
+}
+
+}
+@media (max-width: 576px){
+    .banner {     
+        padding: 120px 0px;
+       
+    }
+    .about-right {
+        width: 100%;
+     
+    }
+    .about-left {
+        width: 100%;
+    }
+    .serviceBox {
+        width: 100%;
+       
+    }
+    .serviceItem {
+        float: left;
+      
+    }
+
+}
+}

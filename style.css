@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clearFix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+img{
+    max-width: 100%;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+
+/* Heades Section CSS */
+
+
+.fixed_with{
+    width: 1100px;
+    margin: auto;
+}
+.HeaderSection{
+    background-color: #22c3a3;
+}
+.HeaderSection_left{
+    float:left;
+    width: 30%;
+
+}
+.HeaderSection_left h1{
+    color: white;
+    font-size: 25px;
+    line-height: 60px;
+}
+
+.HeaderSection_right{
+    float: right;
+    width: 70%;
+}
+.HeaderSection_right ul{
+    text-align: right;
+    
+}
+.HeaderSection_right ul li{
+   display: inline-block;
+   margin-left: -4px;
+}
+.HeaderSection_right ul li a{
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    text-decoration: none;
+    text-transform: capitalize;
+    line-height: 50px;
+    color: white;
+    font-style: 25px;
+    padding: 8px 15px;
+    transition: 0.5s;
+ 
+}
+
+/* Banner Section */
+.banner{
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(https://i.ibb.co/6tHfW3f/assfignmentj.png) no-repeat center;
+    padding: 200px 0px;
+    background-size: cover;
+}
+.bannerCaption{}
+.bannerCaption h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-size: 45px;
+}
+.bannerCaption h4{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    max-width: 600px;
+    margin: auto;
+    font-size: 18px;
+    margin-top: 30px;
+
+}
+.bannerCaption h5{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin: auto;
+    display: inline-block;
+    padding: 10px 15px;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+
+/* Service */
+.service{
+    margin: 100px;
+}
+.service h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin-bottom: 18px;
+}
+.service p{
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 700px;
+    margin: auto;
+    font-size: 18px;
+}
+
+.serviceBox{
+    margin: 100px;
+    border-bottom: 2px solid #22c3a3;
+    padding-bottom: 50px;
+
+}
+.serviceItem{
+    width: 22%;
+    float: left;
+    padding: 30px 10px;
+}
+.serviceItem span{
+    display: block;
+    height: 60px;
+    width: 60px;
+    color: #22c3a3;
+    margin: auto;
+    font-size: 40px;
+    line-height: 60px;
+
+}
+.serviceItem p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.serviceItem h3{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px 0px;
+    font-size: 25px;
+}
+
+/* About Section */
+
+.about{
+    margin: 100px;
+}
+.about h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin-bottom: 18px;
+}
+.about p{
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 700px;
+    margin: auto;
+    font-size: 18px;
+}
+
+
+
+
+
+
+/* About Us */
+.aboutpage{
+    margin: 60px auto;
+}
+.about-left{
+    width: 50%;
+    float: left;   
+}
+.about-right{
+    width: 50%;
+    float: right;
+  
+}
+.aboutItem{
+    margin-bottom: 30px;
+}
+.about-right img{
+    float: left;
+    max-width: 100%;
+    margin-right: 15px;
+}
+.containt1{
+
+}
+.containt h3{
+    font-size: 50px;
+}
+
+.content2{
+    margin-top: 20px;
+}
+.content3{
+    margin-top: 20px;
+}
+
+
+/* Footer Contuct */
+
+.footercont{
+    width: 1200px;
+    height: auto;
+    background-color: #e2dfdf;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.contacItem{
+    width: 31%;
+    float: left;
+    padding: 30px 10px;
+}
+.contacItem span{
+    display: block;
+    height: 40px;
+    width: 40px;
+    color: #22c3a3;
+    margin: auto;
+    font-size: 30px;
+    line-height: 50px;
+
+}
+
+.contacItem p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contacItem h3{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px 0px;
+    font-size: 25px;
+}
+
+
+
+/* Footer top */
+.footer1{
+    background-color: #22c3a3;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    
+}
+.SocialIcon{
+    
+    
+}
+.SocialIcon{
+list-style: none;
+}
+.SocialIcon li{
+    display: inline-block;
+    margin-left: 30px;
+
+
+    
+}
+.SocialIcon li a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    
+    
+}
+
+/* Footer bottom*/
+.footer{
+    background-color: #263848;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    
+}
